@@ -21,13 +21,15 @@ add_action('after_setup_theme', 'add_supports');
 
 register_nav_menus (
     array(
-        'top-menu' => __('Top Menu Location', 'blog-theme'),
-        'main-menu' => __('Main Menu Location', 'blog-theme'),
-        'footer-menu' => __('Footer Menu Location', 'blog-theme'),
+        'top-menu' => __('Top Menu', 'galya-theme'),
+        'main-menu' => __('Main Menu', 'galya-theme'),
+        'footer-menu' => __('Footer Menu', 'galya-theme')
     )
 );
 
-add_image_size ('smallest', 75, 75, true);
+add_image_size ('smallest', 65, 65, true);
+add_image_size ('largest', 100, 100, true);
+
 
 function codex_widgets_init() {
     register_sidebar( array(
@@ -39,5 +41,4 @@ function codex_widgets_init() {
       'after_title' => '</h3>',
     ) );
   }
-  add_action( 'widgets_init', 'codex_widgets_init' );
-  
+add_action( 'widgets_init', 'codex_widgets_init' );

@@ -13,7 +13,7 @@
         <div class="card h-100">
           <img class="card-img-top" src="https://images.unsplash.com/photo-1543465695-d5657dd2ee16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
           <div class="card-body">
-            <p class="card-text">Етикет</p>
+            <p class="card-text">Традиции</p>
           </div>
         </div>
       </div>
