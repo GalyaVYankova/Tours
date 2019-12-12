@@ -4,7 +4,7 @@
         <h2>Незабравима Ваканция</h2>
     </div>
     <div class="start">
-    <a href="/hello-world/">Постове</a>
+    <a href="https://themes.more-vacations.online/2019/">Постове</a>
     <div class="row">
         <img src='https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60' alt="...">
             <div class="caption">

@@ -16,6 +16,7 @@ body > header > div.front-page > h2 {
 .row {
   width: 30%; }
 
+body > header > div.start > div:nth-child(4) > img,
 body > header > div.start > div:nth-child(1) > img,
 body > header > div.start > div:nth-child(2) > img,
 body > header > div.start > div:nth-child(3) > img {
@@ -24,14 +25,14 @@ body > header > div.start > div:nth-child(3) > img {
 
 .start {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-between; }
 
 footer {
   margin-top: 50px; }
 
 body > header > div.single-post {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-between; }
 
 #secondary {
   margin-left: 100px;
@@ -43,9 +44,7 @@ body > header > div.single-post {
 body > header > div.front-page > h3 {
   margin-left: 50px; }
 
-body > header > div.front-page > img {
-  width: 100%;
-  height: 340px; }
+
 
 body > header > h3 {
   margin-top: 50px;
@@ -60,6 +59,31 @@ body > header > div.start > div:nth-child(3) > div > h3 {
 #table {
   width: 80% !important;
   margin: auto;
-  border: 2px solid black;
   font-weight: 700;
   background: #c0c0c096; }
+
+body > header > div.start > div{margin-left: 10px; margin-right:10px}
+
+
+body > header > div.single-post > div.post{
+	margin-left: 50px;
+}
+
+body > header > div.single-post > div.single-page{background: #c0c0c038;}
+
+body > header > div.front-page > img{width:100%; height: 500px;}
+
+body > header > h1{
+    position: relative;
+    top: -400px;
+    /* right: -380px; */
+    /* margin: auto; */
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px;
+	font-style: italic;}
+
+.content-posts{
+	width: 80%;
+	margin: auto;
+}
