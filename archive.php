@@ -1,3 +1,8 @@
+<?php
+/* 
+ ** Template name: Blog
+ */
+?>
 <?php get_header(); ?>
     <div class="front-page">
         

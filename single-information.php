@@ -1,68 +1,44 @@
 <?php get_header(); ?>
-    <div class="front-page">
-        <h1>Програма</h1>
-    </div>
-    <table  id="table" class="table">
-  <thead class="thead-dark">
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">Ден</th>
-      <th scope="col">Сутрин</th>
-      <th scope="col">През Деня</th>
-      <th scope="col">Вечер</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">1</th>
-      <td>28.12.2019</td>
-      <td>Египетския музей в Кайро</td>
-      <td>Обяд на корабче, закотвен на брега на река Нил</td>
-      <td>Вечерен круиз по река Нил с вечеря и ориенталско шоу</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>29.12.2019</td>
-      <td>Посещение на Египетските пирамиди в Гиза</td>
-      <td>Трансфер до Хургада около 5 часа</td>
-      <td>Почивка</td>
-    </tr>
-    <tr>
-      <th scope="row">3</th>
-      <td>30.12.2019</td>
-      <td>Свободно време за плаж и забавления</td>
-      <td>Гмуркане и шнорхелинг в красивите рифове на Червено Море</td>
-      <td>Почивка</td>
-    </tr>
-    <tr>
-      <th scope="row">4</th>
-      <td>31.12.2019</td>
-      <td>Свободно време за плаж и забавления</td>
-      <td>Екскурзия до Древният град Луксор с посещение на Луксор, 
-          Карнак, храма на Хатшепсут, Долината на царете</td>
-      <td>Новогодишна Вечеря</td>
-    </tr>
-    <tr>
-      <th scope="row">5</th>
-      <td>01.01.2020</td>
-      <td>Свободно време за плаж и забавления</td>
-      <td>Разходка с лодка с прозрачно, стъклено дъно из Червено море</td>
-      <td>Почивка</td>
-    </tr>
-    <tr>
-      <th scope="row">6</th>
-      <td>02.01.2020</td>
-      <td>Свободно време за плаж и забавления</td>
-      <td>Посещение на Райският остров</td>
-      <td>Почивка</td>
-    </tr>
-    <tr>
-      <th scope="row">7</th>
-      <td>03.01.2020</td>
-      <td>Свободно време за плаж и забавления</td>
-      <td>Разходка из Арабската пустиня с ATV, джипове и езда на камили с ориенталска вечеря</td>
-      <td>Шоу програма</td>
-    </tr>
-</tbody>
-</table>
+    <div class="menu-items">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://images.unsplash.com/photo-1489517456831-3994100a43bd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="">
+          <div class="card-body">
+            <p class="card-text">Времето</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://images.unsplash.com/photo-1543465695-d5657dd2ee16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+          <div class="card-body">
+            <p class="card-text">Етикет</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card h-100">
+          <img class="card-img-top" src="https://images.unsplash.com/photo-1496950866446-3253e1470e8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="">
+          <div class="card-body">
+            <p class="card-text">Носете си</p>
+           </div>
+        </div>
+      </div>
+</div>
+
+    <div class="single-page">
+      <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+      <h1>Важна Информация
+          <div class="content"><?php the_content(); ?></div>
+        <?php endwhile; endif; ?></h1>
+      
+    <?php if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+        <div id="secondary" class="widget-area" role="complementary">
+          <?php dynamic_sidebar( 'sidebar-1' ); ?>
+        </div>   
+    <?php endif; ?>   
+    </div>  
+
 <?php get_footer(); ?>

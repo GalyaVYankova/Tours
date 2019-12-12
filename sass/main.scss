@@ -80,3 +80,50 @@ body > header > div.start > div:nth-child(3) > div > h3{
     font-weight: 700;
     background: #c0c0c096;
 }
+
+body > header > div.row.text-center{
+    width: 30%;
+    height: 200px;
+}
+
+body > header > div.row.text-center{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-items{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+body > header > div.menu-items > div > div > img{
+    height: 160px;
+}
+
+body > header > div.menu-items > div{
+    height: 250px;
+}
+
+body > header > h1{
+    text-align: center;
+}
+
+body > header > div.content{
+    margin-left: 50px;
+}
+
+body > header > div.single-page{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+body > header > div.single-page > h1 > div > p{
+    font-size: 20px;
+}
+
+.content{
+    margin-top: 30px;
+}
