@@ -1,6 +1,5 @@
 <footer class="container">
-        <p>Blog template built for you.</p>
-        <p><a href="#">Back to top</a></p>
+        <h3>Направете вашата почивка вълнуваща</h3>
 </footer>
 <?php wp_footer(); ?>
 </body>

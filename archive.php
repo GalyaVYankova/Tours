@@ -1,10 +1,11 @@
 <?php get_header(); ?>
-    <div class="container pt-5 pb-5">
-        <p>Посрещане на Новата Година
-        <?php if (have_posts()): while (have_posts()) : the_post(); ?>
-        <h1><?php the_title(); ?></h1>
+    <div class="front-page">
+        <h1>Архив на страниците</h1>
+        <img src="https://images.unsplash.com/photo-1505925119181-3537e71dbc72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="Responsive image">
+    </div>
 
-        <div class="content"><?php the_content(); ?></div>
-            <?php endwhile; endif; ?>
+        <?php if (have_posts()): while (have_posts()) : the_post(); ?>
+        <h3><?php the_title(); ?></h3>
+        <?php endwhile; endif; ?>
     </div>
 <?php get_footer(); ?>
