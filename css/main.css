@@ -32,7 +32,6 @@ body > header > div.single-post {
   justify-content: space-between; }
 
 #secondary {
-  margin-left: 100px;
   margin-top: 10px; }
 
 #recent-comments-3 {
@@ -111,7 +110,8 @@ body > header > div.single-post > div.post {
   margin-left: 40px; }
 
 #secondary {
-  background: #e9ecef59; }
+    background: #e9ecef59; 
+    margin-right: 10px;}
 
 #wp-calendar {
   margin: auto; }
@@ -162,3 +162,12 @@ body > header > footer > h3 {
 
 body > header > div.single-page > div.content > div > div > div > section > div > div > div > div > div > div > div > div > div > div > img {
   width: 50%; }
+
+
+  body > header > div.single-post > div.post > div > div > div > img{
+    width: 60%;
+  }
+
+  body > header > div.single-post > div.post > div > div > div{
+    text-align: center;
+  }
