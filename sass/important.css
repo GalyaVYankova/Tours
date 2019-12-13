@@ -101,7 +101,7 @@ body {
   body > header > div.front-page > img {
     margin-top: -350px;
     height: 600px;
-    margin-bottom: -70px; }
+    margin-bottom: -100px; }
   
   body > header > div.start {
     margin-left: 40px;
@@ -162,7 +162,3 @@ body {
   #menu-menu-2 {
     visibility: hidden; }
   
-
-body > header > div.single-page > div.content > div > div > div > section > div > div > div > div > div > div > div > div > div > div > img{
-    width: 50%;
-}

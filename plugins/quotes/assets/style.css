@@ -1,0 +1,16 @@
+.contact-us-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-us-container .information {
+    padding-right: 1em;
+}
+
+.information > h2{
+    margin-top: 0;
+}
+
+.image-plugin{
+    width: 50%;
+}

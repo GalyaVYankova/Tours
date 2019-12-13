@@ -14,7 +14,7 @@
             <div class="caption">
                 <h3>Едно приключение насред природата</h3>
                 <p>Срещнете дивото, запомнете красивото и се върнете променени</p>
-                <p><a href="/important/stuff" class="btn btn-primary" role="button">Важна Информация</a></p>
+                <p><a href="/important/stuff" class="btn btn-primary" role="button">Прочети</a></p>
             </div>
     </div>
     <div class="row">
@@ -22,7 +22,7 @@
             <div class="caption">
                 <h3>Изпълнено с мистика и история</h3>
                 <p>Разгледайте едно от седемте чудеса на Света</p>
-                <p><a href="/information/info/" class="btn btn-primary" role="button">Програма</a></p>
+                <p><a href="/information/info/" class="btn btn-primary" role="button">Прочети</a></p>
             </div>
     </div>
     <div class="row">
@@ -30,7 +30,7 @@
             <div class="caption">
                 <h3>Или лежерна почивка на брега на морето</h3>
                 <p>Презаредете с нова енергия и сили</p>
-                <p><a href="/menu/menu/" class="btn btn-primary" role="button">Меню</a></p>
+                <p><a href="/menu/menu/" class="btn btn-primary" role="button">Прочети</a></p>
             </div>
     </div>
 </div>
